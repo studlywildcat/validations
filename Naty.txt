@@ -1,1 +1,3 @@
 " hy i am naty and i fork you project that is very good"
+
+ and know i update my Naty.txt for learnig purpose don't every commit it delete it
