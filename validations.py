@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 def vailidate_user(username, minlen):
     """Checks if the recieved username matches the required conditions."""
     if type(username) != str:
