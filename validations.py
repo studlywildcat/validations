@@ -18,4 +18,6 @@ def validate_user(username, minlen):
         return True
         
         
-print("third change of commit: first one was adding health_checks.py and second a typo in definition in validate_user function)        
+print("third change of commit: first one was adding health_checks.py and second a typo in definition in validate_user function)
+
+print("change for second commit")        
