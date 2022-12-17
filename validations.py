@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-def vailidate_user(username, minlen):
+def validate_user(username, minlen):
     """Checks if the received username matches the required conditions."""
     if type(username) != str:
         raise TypeError("username must be a string")
@@ -16,3 +16,6 @@ def vailidate_user(username, minlen):
         if username [0].isnumeric():
             return False
         return True
+        
+        
+print("third change of commit: first one was adding health_checks.py and second a typo in definition in validate_user function)        
