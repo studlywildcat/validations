@@ -16,3 +16,9 @@ def vailidate_user(username, minlen):
         if username [0].isnumeric():
             return False
         return True
+username=input("Enter the name of the user:")
+minlen=int(input("Enter the minimum length to be set:"))
+
+vailidate_user(username,minlen) 
+
+
