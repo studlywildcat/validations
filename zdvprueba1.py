@@ -6,7 +6,7 @@ def vailidate_user(username, minlen):
     if type(username) != str:
         raise TypeError("username must be a string")
     if minlen < 1:
-        raise ValueError("minlen must be at least 1".)
+        raise ValueError("minlen must be at least 1")
 
     # Usernames can't begin with a number
     if len(username) < minlen or not username.isalnum():
