@@ -16,3 +16,4 @@ def vailidate_user(username, minlen):
         if username [0].isnumeric():
             return False
         return True
+validate_user(sandy,10)
